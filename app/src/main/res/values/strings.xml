@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Аренда транспорта</string>
+    <string name="app_name" translatable="false">CarSharing</string>
     <string name="colHours">Количество часов:</string>
-    <string name="button">Ok</string>
+    <string name="button">OK</string>
     <string name="colHint">Введите значение</string>
     <string name="RadioButton">Автомашина (2000р./ч)</string>
     <string name="RadioButton2">Минивэн (2500р./ч)</string>
