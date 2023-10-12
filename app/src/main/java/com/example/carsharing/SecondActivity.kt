@@ -7,8 +7,9 @@ import android.content.Context
 import android.content.Intent
 import android.widget.TextView
 
+private const val EXTRA = "com.example.carsharing.main_answer"
 class SecondActivity : AppCompatActivity() {
-    private var answer:Int = 0
+    private var answer = 0
     private lateinit var fullAnswer: TextView
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,5 +25,26 @@ class SecondActivity : AppCompatActivity() {
                 putExtra(EXTRA, answer)
             }
         }
+    }
+    override fun onStart() {
+        super.onStart()
+    }
+    override fun onResume() {
+        super.onResume()
+    }
+    override fun onPause() {
+        super.onPause()
+    }
+
+    override fun onSaveInstanceState(savedInstanceState: Bundle)
+    {
+        super.onSaveInstanceState(savedInstanceState)
+    }
+
+    override fun onStop() {
+        super.onStop()
+    }
+    override fun onDestroy() {
+        super.onDestroy()
     }
 }
