@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,15 +20,20 @@
             <TextView
                 android:id="@+id/colHours"
                 android:layout_width="183dp"
-                android:layout_height="87dp"
-                android:textSize="20sp" />
+                android:layout_height="wrap_content"
+                android:labelFor="@+id/editText"
+                android:text="@string/colHours"
+                android:textSize="20sp"
+                tools:text="@string/colHours" />
 
             <EditText
                 android:id="@+id/editText"
-                android:layout_width="wrap_content"
-                android:layout_height="87dp"
+                android:layout_width="111dp"
+                android:layout_height="58dp"
+                android:autofillHints="@string/colHint"
                 android:ems="10"
-                android:inputType="text" />
+                android:inputType="number"
+                tools:text="" />
 
         </LinearLayout>
 
@@ -40,27 +44,28 @@
 
             <RadioButton
                 android:id="@+id/radioButton"
-                android:layout_width="147dp"
+                android:layout_width="293dp"
                 android:layout_height="50dp"
-                android:text="RadioButton" />
+                android:text="@string/RadioButton" />
 
             <RadioButton
                 android:id="@+id/radioButton2"
-                android:layout_width="146dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="RadioButton" />
+                android:text="@string/RadioButton2" />
 
             <RadioButton
                 android:id="@+id/radioButton3"
-                android:layout_width="147dp"
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:text="RadioButton" />
+                android:text="@string/RadioButton3" />
         </RadioGroup>
 
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:text="@string/button"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

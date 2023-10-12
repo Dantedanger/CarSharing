@@ -2,9 +2,9 @@
     <string name="app_name">Аренда транспорта</string>
     <string name="colHours">Количество часов:</string>
     <string name="button">Ok</string>
-    <string name="TextEdit">Введите значение</string>
-    <string name="RadioButton">автомашина (2000р./ч)</string>
-    <string name="RadioButton2">минивэн (2500р./ч)</string>
-    <string name="RadioButton3">автобус (3500р./ч)</string>
+    <string name="colHint">Введите значение</string>
+    <string name="RadioButton">Автомашина (2000р./ч)</string>
+    <string name="RadioButton2">Минивэн (2500р./ч)</string>
+    <string name="RadioButton3">Автобус (3500р./ч)</string>
 
 </resources>
